@@ -1,40 +1,50 @@
-# # Mmata Language (.ml)
+# 🧠 Mmata Language (.ml)
 
-**Mmata Language** is a groundbreaking, African-rooted programming language created by Katlego Mankga. It allows people to code using local languages such as Tswana, Sotho, Zulu, Afrikaans, and many more — even mixing them freely — while still being understood by computers.
+**Mmata Language** is a groundbreaking, African-rooted programming language created by [Katlego Mankga](https://github.com/katlego22-maker).  
+It lets you write code in local languages — Tswana, Sotho, Zulu, Afrikaans, slang, and more — and **have computers understand it**.
+
+> “African-first. Human-first. Let the language speak.”
 
 ---
 
 ## 🔥 Why Mmata?
 
-Traditional programming languages mostly use English keywords, which creates a barrier for many African developers and learners. Mmata Language breaks that barrier by embracing African languages and street slang, making coding more natural, intuitive, and accessible.
+Most programming languages use English syntax, creating a barrier for millions.  
+**Mmata breaks that barrier** by:
+
+- Using **natural African languages** and **street slang**  
+- Letting developers mix language + logic  
+- Teaching computers to understand us — not the other way around
 
 ---
 
 ## 🧠 Features
 
-- Write code mixing Tswana, Sotho, Zulu, Afrikaans, English, and more  
-- Declare and update variables in your language  
-- Take user input and print outputs in local expressions  
-- Easily add new languages and slang by updating the dictionary  
-- Open-source and community-driven  
+- ✅ Write logic in **Tswana, Sotho, Zulu, Afrikaans**, or mix them  
+- ✅ Define variables, print output, write conditions like `ge` (if), `gape` (else)
+- ✅ Add your own language or slang — just edit the dictionary JSON
+- ✅ Open-source, extendable, and rooted in African culture
 
 ---
 
-## 📂 Files in This Repo
+## 📁 Files in This Repo
 
-- `program.ml` — Your source code written in Mmata Language  
-- `dictionary.json` — Maps local language keywords to computer commands  
-- `mmata_interpreter.py` — The Python interpreter that runs your ML code  
+| File | Description |
+|------|-------------|
+| `mmata.py`              | Refactored interpreter (core logic) |
+| `program.ml`            | Example Mmata script |
+| `languages/setswana.json` | Keyword dictionary for Setswana/slang |
+| `test_runner.py`        | Automated test runner |
+| `tests/`                | Test `.ml` files and expected outputs |
+| `README.md`             | This file |
+| `LICENSE`               | Apache 2.0 license |
 
 ---
 
-## 💻 How to Run
+## 💻 How to Run a `.ml` File
 
-1. Make sure Python 3.x is installed  
-2. Clone the repo:
+### 1. Make sure Python 3 is installed
 
-   ```bash
-   git clone https://github.com/katlego22-maker/mmata-language.git
-   cd mmata-language
-mmata-language
-African-first, multi-language human-to-machine language interface. Created by Katlego Mankga.
+```bash
+python --version
+
